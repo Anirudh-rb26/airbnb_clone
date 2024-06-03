@@ -16,9 +16,31 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Features
+### User Experience
+- **Loading Skeleton**: Every page includes a pending state that displays a loading skeleton until the page fully loads, ensuring a smooth user experience.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Search and Filter
+- **Search for Homes**: Users can search for homes based on location, number of rooms, and number of guests.
+- **Sort by Category**: Homes can be sorted through various categories for easier browsing.
+
+### User Authentication
+- **Login and Logout**: Secure login and logout functionality using Kinde, ensuring user data privacy and security.
+- **Restricted Actions**: Users must be logged in to favourite homes, create new listings, or make reservations.
+
+### Home Listings
+- **Create Listings**: Logged-in users can create new home listings with detailed information.
+- **Add to Favourites**: Homes can be added to and removed from a list of favourites for quick access.
+
+### Reservations
+- **Checkout**: Users can checkout their reservations, listings, and favourites in an organized manner.
+- **Reserve Bookings**: Users can reserve bookings, and once a slot is reserved, it is unavailable to other users, preventing double bookings.
+
+## Getting Started
+
+### Prerequisites
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/)
 
 ## Learn More
 
